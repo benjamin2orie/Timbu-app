@@ -1,0 +1,16 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.image_container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.col1{
+    width:230px;
+    height:300px
+}

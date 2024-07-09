@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* started styling the header nav link */
+
+.header_container{
+    background: #5D6AE0;
+
+}
+
+.cart_box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.cart_flex{
+    display:flex;
+    padding-top: 1.5em;
+}
+.cart_flex h3{
+    padding-top: 1.5em;
+    font-family: Inter;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+/* styling the cart icons */
+.addToCart{
+    padding-top: 3em;
+    cursor:pointer;
+}
+
+.Cartadded{
+    padding-right: 3em;
+}
+
+/* styling the search input from the header */
+.div_search{
+    display:flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.div_search input{
+    flex:0.9;
+    width:60px;
+    height:50px;
+    outline: none;
+    background: #FFFFFF;
+    color: #000;
+    font-size: 20px;
+    padding-left: 3em;
+    border: 1px solid #DED0D0;
+    border-radius: 2px;
+
+}
+.search{
+    position: relative;
+    left: 2.5em;
+    font-size: 20px;
+    opacity: 0.2;
+    border-left-color:5px solid #0000;
+}
+/* styling the new collectio section */
+
+.newCollection{
+    /* width:50%; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 30px;
+    color: #FFFFFF;
+    height: 60px;
+    border-radius: 5px;
+    background: #5D6AE0;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1.5em;
+    padding-top: 0.5em;
+
+}
+/* styling the card component on new collection section */
+.card img{
+    width:222px;
+    height:432px;
+    padding: 10px;
+}
+
+.image_container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.col1{
+    width:230px;
+    height:300px;
+    margin:0;
+    padding:0;
+}
