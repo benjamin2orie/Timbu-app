@@ -49,7 +49,7 @@ const Home = () => {
           <h5>see all</h5>
         </div>
         <div className={styles.container_collection}>
-          <div className={styles.cntainer_card}>
+          <div className={styles.container_card}>
             <div className={styles.card}>
               <img
                 src={var1}
@@ -60,7 +60,9 @@ const Home = () => {
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
               <div>
-                <a href="#">add to cart</a>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -76,7 +78,9 @@ const Home = () => {
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
               <div>
-                <a href="#">add to cart</a>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -85,7 +89,7 @@ const Home = () => {
           </div>
           {/* cart implementation */}
 
-          <div className={styles.cntainer_card}>
+          <div className={styles.container_card}>
             <div className={styles.card}>
               <img
                 src={var3}
@@ -96,7 +100,9 @@ const Home = () => {
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
               <div>
-                <a href="#">add to cart</a>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -112,7 +118,9 @@ const Home = () => {
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
               <div>
-                <a href="#">add to cart</a>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
