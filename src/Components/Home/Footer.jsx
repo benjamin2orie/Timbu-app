@@ -23,14 +23,16 @@ const Footer = () => {
               <li>contact us</li>
               <li>help center</li>
               <li>terms and conditon</li>
+
+              <div className={styles.footer_product}>
+                <ul>
+                  <li>report a product</li>
+                  <li>our privacy</li>
+                  <li>live chat</li>
+                </ul>
+              </div>
             </ul>
-            <div className={styles.footer_product}>
-              <ul>
-                <li>report a product</li>
-                <li>our privacy</li>
-                <li>live chat</li>
-              </ul>
-            </div>
+
             <div className={styles.footer_link}>
               <h5>some useful link</h5>
               <ul>
@@ -49,7 +51,7 @@ const Footer = () => {
             <img src={x} alt="x icon" />
             <img src={youtube} alt="youtube icon" />
           </div>
-          <p>all rights reversed</p>
+          <p>all rights reserved</p>
         </div>
       </section>
     </div>
