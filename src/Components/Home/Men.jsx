@@ -9,12 +9,12 @@ const Men = () => {
   return (
     <div>
       <section>
-        <div>
-          <h3>women's section</h3>
+        <div className={styles.men_collection}>
+          <h3>Men's section</h3>
           <h5>see all</h5>
         </div>
         <div className={styles.container_collection}>
-          <div className={styles.cntainer_card}>
+          <div className={styles.container_card}>
             <div className={styles.card}>
               <img
                 src={mcol1}
@@ -24,8 +24,10 @@ const Men = () => {
               <h6>louis vuitton</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
-                <a href="#">add to cart</a>
+              <div className={styles.btn}>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -40,8 +42,10 @@ const Men = () => {
               <h6>Hombres cazadora</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
-                <a href="#">add to cart</a>
+              <div className={styles.btn}>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -50,7 +54,7 @@ const Men = () => {
           </div>
           {/* cart implementation */}
 
-          <div className={styles.cntainer_card}>
+          <div className={styles.container_card}>
             <div className={styles.card}>
               <img
                 src={mcol3}
@@ -60,8 +64,10 @@ const Men = () => {
               <h6>Louis vuitton</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
-                <a href="#">add to cart</a>
+              <div className={styles.btn}>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -76,8 +82,10 @@ const Men = () => {
               <h6>Hombres cazadora</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
-                <a href="#">add to cart</a>
+              <div className={styles.btn}>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>

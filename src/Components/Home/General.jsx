@@ -10,12 +10,12 @@ const General = () => {
   return (
     <div>
       <section>
-        <div>
+        <div className={styles.general_collection}>
           <h3>General Section</h3>
           <h5>see all</h5>
         </div>
         <div className={styles.container_collection}>
-          <div className={styles.cntainer_card}>
+          <div className={styles.container_card}>
             <div className={styles.card}>
               <img
                 src={gen1}
@@ -25,8 +25,10 @@ const General = () => {
               <h6>Brown micky mouse</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
-                <a href="#">add to cart</a>
+              <div className={styles.btn}>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -41,8 +43,10 @@ const General = () => {
               <h6>Sleeve bodycon</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
-                <a href="#">add to cart</a>
+              <div className={styles.btn}>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -51,7 +55,7 @@ const General = () => {
           </div>
           {/* cart implementation */}
 
-          <div className={styles.cntainer_card}>
+          <div className={styles.container_card}>
             <div className={styles.card}>
               <img
                 src={gen3}
@@ -61,8 +65,10 @@ const General = () => {
               <h6>Brown micky mouse</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
-                <a href="#">add to cart</a>
+              <div className={styles.btn}>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>
@@ -77,8 +83,10 @@ const General = () => {
               <h6>Sleeve bodycon</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
-                <a href="#">add to cart</a>
+              <div className={styles.btn}>
+                <li className={styles.btncard}>
+                  <a href="#">add to cart</a>
+                </li>
                 <button>-</button>
                 <p>1</p>
                 <button>+</button>

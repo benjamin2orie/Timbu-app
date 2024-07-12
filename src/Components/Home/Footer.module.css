@@ -5,3 +5,17 @@
     padding:0;
     box-sizing:border-box;
 }
+.footer_section{
+    background: #5D6AE0;
+
+}
+
+.toppage h5{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align:center;
+    color: #FFFFFF;
+    padding-top:2em;
+    font-family:monospace;
+
+}

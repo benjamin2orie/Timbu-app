@@ -59,7 +59,7 @@ const Home = () => {
               <h6>varsity jacket</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
+              <div className={styles.btn}>
                 <li className={styles.btncard}>
                   <a href="#">add to cart</a>
                 </li>
@@ -77,7 +77,7 @@ const Home = () => {
               <h6>Casual basic</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
+              <div className={styles.btn}>
                 <li className={styles.btncard}>
                   <a href="#">add to cart</a>
                 </li>
@@ -99,7 +99,7 @@ const Home = () => {
               <h6>varsity jacket</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
+              <div className={styles.btn}>
                 <li className={styles.btncard}>
                   <a href="#">add to cart</a>
                 </li>
@@ -117,7 +117,7 @@ const Home = () => {
               <h6>Casual basic</h6>
               <p>$5.00</p>
               <h5>suitable for all occassion</h5>
-              <div>
+              <div className={styles.btn}>
                 <li className={styles.btncard}>
                   <a href="#">add to cart</a>
                 </li>

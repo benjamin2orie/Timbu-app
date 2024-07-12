@@ -16,3 +16,117 @@
     margin:0;
     padding:0;
 }
+
+/* styling the women collection section */
+.men_collection{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 30px;
+    color: #FFFFFF;
+    height: 60px;
+    border-radius: 5px;
+    background: #5D6AE0;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1.5em;
+    padding-top: 0.5em;
+
+}
+
+/* styling the card component on new collection section */
+.card img{
+    width:222px;
+    height:432px;
+    padding: 10px;
+}
+
+.card{
+    /* width:222px; */
+    width: 300px;
+    height:680px;
+    padding:10px;
+    border: 2px solid #E7E8EFCF;
+}
+
+.card h6{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 17.86px;
+    padding-left: 1.5em;
+    color:#000000;
+}
+
+.card p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17.86px;
+    text-align: left;
+    color: #FF0606;
+    padding-left: 1.5em;
+    padding-top: 1em;
+
+}
+.card h5{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1em;
+    padding-top: 1em;
+    color: #000000;
+}
+
+.btncard{
+    width:100px;
+    height:50px;
+    background: #5D6AE0;
+    text-align: center;
+    list-style: none;
+    border-radius: 3px;
+    padding-top: 0.5em;
+    margin-top: 0.5em;
+   
+}
+
+.btncard a{
+    color: #FCD508;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.container_card{
+    display: flex;
+    gap: 3em;
+}
+.container_collection{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+
+.btn button{
+    background: #5D6AE0;
+     color: #FCD508;
+     font-size: 20px;
+     width: 50px;
+     height: 30px;
+     border: none;
+     border-radius: 2px;
+     cursor:pointer;
+     margin-top: 1em;
+}
+
+.btn p{
+    padding-right: 0.5em;
+    color: #2D3648;
+    padding-top: 1.5em;
+}

@@ -14,7 +14,7 @@ const Footer = () => {
           <h5>know more</h5>
           <a href="#moveTop">
             <img src={vector} alt="bookmark icon" />
-            <h5>back to top</h5>
+            <h6>back to top</h6>
           </a>
         </div>
         <div>
